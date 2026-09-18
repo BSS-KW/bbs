@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BSS — Biological Science Society. Connecting biology enthusiasts everywhere."
+    />
+    <title>BSS | Biological Science Society</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page-loader" class="page-loader">
+      <div class="loader-dna">🧬</div>
+      <span>BSS</span>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <a href="#home" class="brand" aria-label="BSS Home">
+        <img src="assets/logo.jpg" alt="BSS Biological Science Society logo" />
+        <div class="brand-text">
+          <strong>BSS</strong>
+          <span data-i18n="brandSubtitle">Biological Science Society</span>
+        </div>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#about" data-i18n="navAbout">About BSS</a>
+        <a href="#fields" data-i18n="navFields">Fields</a>
+        <a href="#genetics" data-i18n="navGenetics">Genetics</a>
+        <a href="#marine" data-i18n="navMarine">Marine Biology</a>
+        <a href="#memories" data-i18n="navMemories">Memories</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <button
+        class="language-switch"
+        id="languageSwitch"
+        type="button"
+        aria-label="Switch language"
+      >
+        <span id="languageLabel">العربية</span>
+        <span class="lang-icon">文</span>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero section" id="home">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="molecule molecule-a"></div>
+        <div class="molecule molecule-b"></div>
+
+        <div class="hero-content reveal">
+          <div class="hero-logo-wrap">
+            <img
+              src="assets/logo.jpg"
+              alt="BSS official logo"
+              class="hero-logo"
+            />
+          </div>
+
+          <p class="eyebrow" data-i18n="heroEyebrow">
+            BIOLOGICAL SCIENCE SOCIETY
+          </p>
+          <h1>BSS</h1>
+          <h2 data-i18n="heroArabicName">جمعية العلوم البيولوجية</h2>
+          <p class="hero-tagline" data-i18n="heroTagline">
+            Connecting biology enthusiasts everywhere.
+          </p>
+          <p class="hero-kuwait" data-i18n="heroKuwait">
+            Made in the State of Kuwait 🇰🇼 — but we welcome the world 🌎.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary" data-i18n="exploreBss"
+              >Explore BSS</a
+            >
+            <a
+              href="#fields"
+              class="btn btn-secondary"
+              data-i18n="exploreFields"
+              >Explore Our Fields</a
+            >
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span data-i18n="scroll">Scroll to explore</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-number">01</span>
+            <p class="eyebrow" data-i18n="aboutEyebrow">WHO WE ARE</p>
+            <h2 data-i18n="aboutTitle">
+              More than a society. A scientific community.
+            </h2>
+            <p data-i18n="aboutLead">
+              BSS is a space where curiosity about life becomes learning,
+              experience, connection, and growth.
+            </p>
+          </div>
+
+          <div class="about-intro reveal">
+            <div class="about-copy">
+              <h3 data-i18n="whatIsTitle">What is BSS?</h3>
+              <p data-i18n="whatIsText">
+                We are pleased to welcome you to BSS — Biological Science
+                Society, a community created to bring together everyone
+                interested in biological sciences in Kuwait.
+              </p>
+              <p data-i18n="whatIsText2">
+                Whether you are a student, researcher, professional, or simply
+                someone curious about how life works, there is a place for you
+                among us.
+              </p>
+            </div>
+            <div class="about-highlight">
+              <div class="big-dna">🧬</div>
+              <strong data-i18n="curiosityEnough"
+                >You don't have to be a biology major to belong here.</strong
+              >
+              <span data-i18n="curiosityEnough2"
+                >If you are curious about life, science, and discovery, there is
+                a place for you at BSS.</span
+              >
+            </div>
+          </div>
+
+          <div class="vision-grid">
+            <article class="info-card reveal">
+              <span class="card-icon">◎</span>
+              <h3 data-i18n="visionTitle">Our Vision</h3>
+              <p data-i18n="visionText">
+                To build a connected and active scientific community in Kuwait
+                where curiosity, knowledge, creativity, and collaboration can
+                grow together.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <span class="card-icon">✦</span>
+              <h3 data-i18n="missionTitle">Our Mission</h3>
+              <p data-i18n="missionText">
+                To spread scientific knowledge and awareness, connect people
+                through science, simplify biological concepts, encourage new
+                ideas, and provide students with meaningful practical
+                experiences.
+              </p>
+            </article>
+          </div>
+
+          <div class="subheading reveal">
+            <p class="eyebrow" data-i18n="whoEyebrow">OUR COMMUNITY</p>
+            <h3 data-i18n="whoTitle">Who is BSS for?</h3>
+          </div>
+
+          <div class="community-grid">
+            <article class="community-card reveal">
+              <span>🎓</span>
+              <h4 data-i18n="students">Students</h4>
+              <p data-i18n="studentsText">
+                Biology, health sciences, medicine, biotechnology, engineering,
+                and other scientific fields.
+              </p>
+            </article>
+            <article class="community-card reveal">
+              <span>🔬</span>
+              <h4 data-i18n="researchers">Researchers</h4>
+              <p data-i18n="researchersText">
+                People interested in scientific research, discovery, and new
+                ideas.
+              </p>
+            </article>
+            <article class="community-card reveal">
+              <span>🧪</span>
+              <h4 data-i18n="professionals">Professionals</h4>
+              <p data-i18n="professionalsText">
+                People studying or working in scientific and health-related
+                fields.
+              </p>
+            </article>
+            <article class="community-card reveal">
+              <span>🌱</span>
+              <h4 data-i18n="enthusiasts">Biology Enthusiasts</h4>
+              <p data-i18n="enthusiastsText">
+                Anyone curious about life, nature, biology, and science.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GOALS -->
+      <section class="section goals-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-number">02</span>
+            <p class="eyebrow" data-i18n="goalsEyebrow">WHY BSS?</p>
+            <h2 data-i18n="goalsTitle">
+              Built around curiosity, knowledge, and community.
+            </h2>
+          </div>
+          <div class="goals-grid">
+            <div class="goal reveal">
+              <b>01</b>
+              <h3 data-i18n="goal1Title">Promote Curiosity</h3>
+              <p data-i18n="goal1Text">
+                Encourage people to ask questions and explore biology.
+              </p>
+            </div>
+            <div class="goal reveal">
+              <b>02</b>
+              <h3 data-i18n="goal2Title">Build Skills</h3>
+              <p data-i18n="goal2Text">
+                Develop communication, teamwork, scientific thinking, and
+                practical skills.
+              </p>
+            </div>
+            <div class="goal reveal">
+              <b>03</b>
+              <h3 data-i18n="goal3Title">Connect Fields</h3>
+              <p data-i18n="goal3Text">
+                Bring students and enthusiasts from different scientific
+                backgrounds together.
+              </p>
+            </div>
+            <div class="goal reveal">
+              <b>04</b>
+              <h3 data-i18n="goal4Title">Support Discovery</h3>
+              <p data-i18n="goal4Text">
+                Encourage research, innovation, and new scientific ideas.
+              </p>
+            </div>
+            <div class="goal reveal">
+              <b>05</b>
+              <h3 data-i18n="goal5Title">Share Knowledge</h3>
+              <p data-i18n="goal5Text">
+                Make science accessible, understandable, and enjoyable.
+              </p>
+            </div>
+            <div class="goal reveal">
+              <b>06</b>
+              <h3 data-i18n="goal6Title">Grow the Community</h3>
+              <p data-i18n="goal6Text">
+                Help build a stronger scientific culture in Kuwait.
+              </p>
+            </div>
+          </div>
+
+          <div class="values reveal">
+            <div class="subheading">
+              <p class="eyebrow" data-i18n="valuesEyebrow">OUR VALUES</p>
+              <h3 data-i18n="valuesTitle">What we believe in.</h3>
+            </div>
+            <div class="values-row">
+              <span>Curiosity</span><span>Knowledge</span
+              ><span>Collaboration</span><span>Innovation</span
+              ><span>Experience</span><span>Community</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KUWAIT -->
+      <section class="kuwait-section section">
+        <div class="container kuwait-inner reveal">
+          <div>
+            <p class="eyebrow">🇰🇼 BSS — KUWAIT</p>
+            <h2 data-i18n="kuwaitTitle">
+              Made in Kuwait.<br />Connected to the world.
+            </h2>
+            <p data-i18n="kuwaitText">
+              BSS was created in the State of Kuwait with the goal of building a
+              strong scientific community locally while welcoming everyone who
+              shares our passion for biology and science from around the world.
+            </p>
+          </div>
+          <div class="kuwait-mark">🇰🇼<span>🌎</span></div>
+        </div>
+      </section>
+
+      <!-- 04 — WHAT WE DO -->
+      <section class="section purpose-section" id="what-we-do">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-number">04</span>
+
+            <p class="eyebrow" data-i18n="whatWeDoEyebrow">WHAT WE DO</p>
+
+            <h2 data-i18n="whatWeDoTitle">
+              Built by students. Driven by science.
+            </h2>
+
+            <p data-i18n="whatWeDoLead">
+              BSS brings together students who share a passion for biological
+              sciences, scientific exploration, and learning beyond the
+              classroom.
+            </p>
+          </div>
+
+          <div class="purpose-grid">
+            <!-- Explore -->
+            <article class="purpose-card reveal">
+              <div class="purpose-icon">🧬</div>
+
+              <span class="purpose-number">01</span>
+
+              <h3 data-i18n="purposeExploreTitle">Explore</h3>
+
+              <p data-i18n="purposeExploreText">
+                Discover different areas of biological sciences and explore the
+                world of science beyond the classroom.
+              </p>
+            </article>
+
+            <!-- Learn -->
+            <article class="purpose-card reveal">
+              <div class="purpose-icon">🔬</div>
+
+              <span class="purpose-number">02</span>
+
+              <h3 data-i18n="purposeLearnTitle">Learn</h3>
+
+              <p data-i18n="purposeLearnText">
+                Take part in scientific activities, discussions, courses, and
+                experiences that make learning more engaging.
+              </p>
+            </article>
+
+            <!-- Connect -->
+            <article class="purpose-card reveal">
+              <div class="purpose-icon">🤝</div>
+
+              <span class="purpose-number">03</span>
+
+              <h3 data-i18n="purposeConnectTitle">Connect</h3>
+
+              <p data-i18n="purposeConnectText">
+                Meet students who share the same interest in biology and build
+                meaningful scientific connections.
+              </p>
+            </article>
+
+            <!-- Grow -->
+            <article class="purpose-card reveal">
+              <div class="purpose-icon">🌱</div>
+
+              <span class="purpose-number">04</span>
+
+              <h3 data-i18n="purposeGrowTitle">Grow</h3>
+
+              <p data-i18n="purposeGrowText">
+                Start small, gain new experiences, and help build a stronger
+                scientific community together.
+              </p>
+            </article>
+          </div>
+
+          <div class="purpose-bottom reveal">
+            <div>
+              <strong data-i18n="purposeBottomTitle">
+                Our journey starts here.
+              </strong>
+
+              <p data-i18n="purposeBottomText">
+                BSS may be new, but every great community starts with a first
+                step.
+              </p>
+            </div>
+
+            <span class="purpose-arrow">→</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- FIELDS -->
+      <section class="section fields-section" id="fields">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-number">05</span>
+            <p class="eyebrow" data-i18n="fieldsEyebrow">EXPLORE</p>
+            <h2 data-i18n="fieldsTitle">Explore our scientific fields.</h2>
+            <p data-i18n="fieldsLead">
+              Biology connects many worlds. Explore two of BSS's featured fields
+              below.
+            </p>
+          </div>
+
+          <div class="field-feature-grid">
+            <a class="field-feature genetics-card reveal" href="#genetics">
+              <img
+                src="assets/genetics.jpg"
+                alt="Genetics BSS artwork"
+                loading="lazy"
+              />
+              <div class="field-overlay">
+                <span>🧬</span>
+                <h3>Genetics</h3>
+                <p data-i18n="geneticsShort">
+                  Understanding the blueprint of life.
+                </p>
+                <b data-i18n="discoverMore">Discover more →</b>
+              </div>
+            </a>
+
+            <a class="field-feature marine-card reveal" href="#marine">
+              <img
+                src="assets/marine-biology.JPG"
+                alt="Marine Biology BSS artwork"
+                loading="lazy"
+              />
+              <div class="field-overlay">
+                <span>🌊</span>
+                <h3>Marine Biology</h3>
+                <p data-i18n="marineShort">
+                  Exploring life beneath the surface.
+                </p>
+                <b data-i18n="discoverMore">Discover more →</b>
+              </div>
+            </a>
+          </div>
+
+          <div class="other-fields reveal">
+            <span>Molecular Biology</span><span>Biotechnology</span
+            ><span>Microbiology</span><span>Plant Biology</span
+            ><span>Animal Biology</span><span>Neuroscience</span
+            ><span>Human Biology</span><span>Ecology</span
+            ><span>Embryology</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- GENETICS -->
+      <section class="field-detail genetics-detail section" id="genetics">
+        <div class="field-detail-top">
+          <div class="container detail-grid">
+            <div class="detail-copy reveal">
+              <p class="eyebrow">FEATURED FIELD 01</p>
+              <h2>GENETICS <span>🧬</span></h2>
+              <h3 data-i18n="geneticsSubtitle">
+                Understanding the blueprint of life.
+              </h3>
+              <p data-i18n="geneticsText">
+                Genetics is the branch of biology that studies genes, heredity,
+                DNA, and how biological characteristics are passed from one
+                generation to another.
+              </p>
+              <div class="detail-tags">
+                <span>DNA</span><span>Genes</span><span>Heredity</span
+                ><span>Genetic Engineering</span><span>Biotechnology</span>
+              </div>
+            </div>
+            <div class="detail-image reveal">
+              <img src="assets/genetics.jpg" alt="Genetics artwork" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container detail-cards">
+          <article class="science-card reveal">
+            <span>01</span>
+            <h3 data-i18n="dnaTitle">DNA</h3>
+            <p data-i18n="dnaText">
+              DNA stores the biological information that helps living organisms
+              develop, function, and reproduce.
+            </p>
+          </article>
+          <article class="science-card reveal">
+            <span>02</span>
+            <h3 data-i18n="genesTitle">Genes</h3>
+            <p data-i18n="genesText">
+              Genes are sections of DNA that contain information used by cells
+              to make functional products and influence traits.
+            </p>
+          </article>
+          <article class="science-card reveal">
+            <span>03</span>
+            <h3 data-i18n="heredityTitle">Heredity</h3>
+            <p data-i18n="heredityText">
+              Heredity explains how biological information can be passed from
+              parents to their offspring.
+            </p>
+          </article>
+          <article class="science-card reveal">
+            <span>04</span>
+            <h3 data-i18n="engineeringTitle">Genetic Engineering</h3>
+            <p data-i18n="engineeringText">
+              Genetic engineering involves changing genetic material for
+              scientific, medical, agricultural, or other applications.
+            </p>
+          </article>
+          <article class="science-card reveal">
+            <span>05</span>
+            <h3 data-i18n="biotechTitle">Biotechnology</h3>
+            <p data-i18n="biotechText">
+              Genetics connects closely with biotechnology, medicine, research,
+              agriculture, and many modern scientific applications.
+            </p>
+          </article>
+          <article class="science-card reveal">
+            <span>06</span>
+            <h3 data-i18n="whyGeneticsTitle">Why Genetics Matters</h3>
+            <p data-i18n="whyGeneticsText">
+              Studying genetics helps us understand living organisms and
+              supports research in health, disease, biotechnology, agriculture,
+              and more.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- MARINE -->
+      <section class="field-detail marine-detail section" id="marine">
+        <div class="marine-bubbles"></div>
+        <div class="field-detail-top">
+          <div class="container detail-grid reverse-mobile">
+            <div class="detail-image reveal">
+              <img
+                src="assets/marine-biology.JPG"
+                alt="Marine Biology artwork"
+              />
+            </div>
+            <div class="detail-copy reveal">
+              <p class="eyebrow">FEATURED FIELD 02</p>
+              <h2>MARINE BIOLOGY <span>🌊</span></h2>
+              <h3 data-i18n="marineSubtitle">
+                Exploring life beneath the surface.
+              </h3>
+              <p data-i18n="marineText">
+                Marine Biology is the study of organisms and ecosystems that
+                live in oceans and other marine environments. It helps us
+                understand marine life, biodiversity, ecosystems, and the
+                relationship between organisms and their environment.
+              </p>
+              <div class="detail-tags">
+                <span>Ocean Life</span><span>Biodiversity</span
+                ><span>Ecosystems</span><span>Conservation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container detail-cards">
+          <article class="marine-card-small reveal">
+            <span>🐋</span>
+            <h3 data-i18n="marineLifeTitle">Marine Life</h3>
+            <p data-i18n="marineLifeText">
+              Explore whales, turtles, fish, jellyfish, corals, seaweed, and
+              countless other organisms.
+            </p>
+          </article>
+          <article class="marine-card-small reveal">
+            <span>🪸</span>
+            <h3 data-i18n="ecosystemsTitle">Marine Ecosystems</h3>
+            <p data-i18n="ecosystemsText">
+              Understand how organisms interact with one another and with their
+              marine environment.
+            </p>
+          </article>
+          <article class="marine-card-small reveal">
+            <span>🐠</span>
+            <h3 data-i18n="biodiversityTitle">Marine Biodiversity</h3>
+            <p data-i18n="biodiversityText">
+              Discover the incredible variety of life found in oceans and
+              coastal environments.
+            </p>
+          </article>
+          <article class="marine-card-small reveal">
+            <span>🌊</span>
+            <h3 data-i18n="conservationTitle">Ocean Conservation</h3>
+            <p data-i18n="conservationText">
+              Learn why healthy oceans matter and how scientific knowledge
+              supports conservation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- MEMORIES -->
+      <section class="section memories-section" id="memories">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-number">06</span>
+
+            <p class="eyebrow" data-i18n="memoriesEyebrow">OUR JOURNEY</p>
+
+            <h2 data-i18n="memoriesTitle">BSS Memories.</h2>
+
+            <p data-i18n="memoriesLead">
+              Learning. Exploring. Experiencing. A growing archive of moments
+              from our scientific journey.
+            </p>
+          </div>
+
+          <!-- MEMORY / KISR FILTERS -->
+          <div class="memory-tabs reveal" id="memoryTabs">
+            <button
+              class="memory-tab active"
+              data-cohort="all"
+              data-i18n="allMemories"
+            >
+              All Memories
+            </button>
+
+            <button class="memory-tab" data-cohort="KISR 47">KISR 47</button>
+
+            <button class="memory-tab" data-cohort="KISR 46">KISR 46</button>
+
+            <button class="memory-tab" data-cohort="KISR 42">KISR 42</button>
+          </div>
+
+          <!-- PHOTOS ARE GENERATED HERE -->
+          <div class="memory-grid" id="memoryGrid"></div>
+        </div>
+      </section>
+      ```
+
+      <!-- FOLLOW -->
+      <section class="instagram-section section" id="contact">
+        <div class="container instagram-inner reveal">
+          <div class="instagram-icon">◎</div>
+          <p class="eyebrow">BSS.KW</p>
+          <h2 data-i18n="followTitle">Stay connected with BSS.</h2>
+          <p data-i18n="followText">
+            Follow our scientific activities, memories, events, and latest
+            content on Instagram.
+          </p>
+          <a
+            class="instagram-btn"
+            href="https://www.instagram.com/BSS.kw/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>@BSS.kw</span>
+            <b data-i18n="visitInstagram">Visit Instagram ↗</b>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>BSS</strong>
+          <p>Biological Science Society | جمعية العلوم البيولوجية</p>
+        </div>
+        <div>
+          <p data-i18n="footerTagline">
+            Connecting biology enthusiasts everywhere 🧬
+          </p>
+          <p>Made in Kuwait 🇰🇼 — Connected to the world 🌎</p>
+        </div>
+        <div class="footer-bottom">
+          <span>© BSS — Biological Science Society</span>
+          <a
+            href="https://www.instagram.com/BSS.kw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >@BSS.kw</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+        ×
+      </button>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">
+        ‹
+      </button>
+      <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="" />
+        <div class="lightbox-caption">
+          <strong id="lightboxTitle"></strong>
+          <span id="lightboxCounter"></span>
+          <p id="lightboxDescription"></p>
+        </div>
+      </div>
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next">
+        ›
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Copyright Footer -->
+    <footer class="copyright-footer">
+      <p>
+        © 2026 <strong>BSS</strong> — Biological Science Society. All Rights
+        Reserved.
+      </p>
+
+      <p class="copyright-credit">
+        Designed & Developed by <strong>MOHAMMED ALENEZI</strong>
+      </p>
+    </footer>
+  </body>
+</html>
